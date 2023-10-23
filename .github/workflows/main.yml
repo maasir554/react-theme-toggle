@@ -23,5 +23,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.DEPLOY_GH_TOKEN }}
-          external_repository: maasir554/react-theme-toggle
           publish_dir: ./build
